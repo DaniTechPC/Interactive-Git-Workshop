@@ -69,3 +69,24 @@ nav ul li a:hover {
   font-size: 18px;
   border-radius: 20%;
 }
+
+.discord-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px; 
+    margin-top: 0;
+    align-items: left;
+    align-content: left;
+}
+
+
+.discord.div {
+    display: flex;
+}
+
+.discord-header {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+}
+
