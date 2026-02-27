@@ -2,12 +2,13 @@
 <html>
 <head>
     <title>CS Club Demo Site</title>
-    <link rel="stylesheet" href="styles.css"> <!-- BUG: wrong filename -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
-    <h1>Welcome to the CS Club Website<h1> <!-- BUG: missing closing tag -->
+    <h1>Welcome to the CS Club Website</h1>
 
     <nav>
         <ul>
@@ -19,16 +20,16 @@
 
     <section id="about">
         <h2>About Us</h2>
-        <p>We love programming and building cool stuff.
-    </section> <!-- BUG: unclosed <p> -->
+        <p>We love programming and building cool stuff.</p>
+    </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <button onclick="showProjects()">Show Projects</button>
         <ul id="project-list">
-            <li>Website Builder
-            <li>Game Engine
-            <li>Robot Controller
+            <li>Website Builder</li>
+            <li>Game Engine</li>
+            <li>Robot Controller</li>
         </ul>
     </section>
 
@@ -41,7 +42,6 @@
         </form>
     </section>
 
-    <script src="script.js"></script>
-
+    <button onclick="doABarrelRoll()">Do Something Fun</button>
 </body>
 </html>
