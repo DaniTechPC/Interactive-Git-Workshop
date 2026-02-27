@@ -4,6 +4,6 @@ function showProjects() {
     if (list.style.display === "none") {
         list.style.display = "block"
     } else {
-        list.style.display = none; // BUG: should be string
+        list.style.display = "none"; // BUG: should be string
     }
 }
