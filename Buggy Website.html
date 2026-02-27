@@ -2,13 +2,21 @@
 <html>
 <head>
     <title>CS Club Demo Site</title>
-    <link rel="stylesheet" href="styles.css"> <!-- BUG: wrong filename -->
+    <link rel="stylesheet" href="style.css"> 
+      <link rel="icon" type="image/x-icon" href="computer.ico"> 
+      <!-- unattributed super cool radical favicon -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jersey+10&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jersey+10&display=swap');
+    </style>
 </head>
 
 <body>
 
-    <h1>Welcome to the CS Club Website<h1> <!-- BUG: missing closing tag -->
-
+    <h1>Computer Science Club of Moorpark College</h1> 
     <nav>
         <ul>
             <li><a href="#about">About</a>
@@ -19,8 +27,11 @@
 
     <section id="about">
         <h2>About Us</h2>
-        <p>We love programming and building cool stuff.
-    </section> <!-- BUG: unclosed <p> -->
+        <p>Also called the <strong>Enthusiastic Programmers </strong>, we spend our time on a range of things. We are currently preparing for <a href="https://lahacks.com/">LAHacks</a> in April, where we will be attending as teams. We love programming and building cool stuff.</p>
+        <br>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.moorparkcollege.edu%2Fsites%2Fmoorparkcollege%2Ffiles%2Fstyles%2Flocation%2Fpublic%2Fmap-locations%2FMC%2520Acad%2520Ctr%2520ext%25201000x562.jpg%3Fh%3D73545cb6%26itok%3DzOZEmWJO&f=1&nofb=1&ipt=b8ee8d1deddd9624621a31d1add2c4bd0fa21d31ab85ede276320b41dd858c9c" alt="Moorpark College Academic Center">
+
+    </section> 
 
     <section id="projects">
         <h2>Projects</h2>
@@ -32,12 +43,47 @@
         </ul>
     </section>
 
+    <section id="workshops">
+        <h2>Workshops</h2>
+        <button onclick="showWorkshops()">Show Workshops</button>
+        <ul id="workshop-list">
+            <li><a href="https://docs.google.com/presentation/d/1owHVIvmBMVsRjDafu9PpejQS_oHzkJioejBOzq4kk0A/edit">CMD workshop</a>
+            <li><a href="https://discord.com/channels/124739844780851200/154701861599969280/1420858236780675243">Selenium workshop</a>
+            <li><a href="https://docs.google.com/presentation/d/1Py-46hgmSb_0-7W1bQ6Xi-e8plo101BoEmX1FlqVof0/edit">Assembly Workshop</a>
+            <li> <a href="https://docs.google.com/presentation/d/1n7LRIWmcAlis21OPFTe4otKwICs6bhwms6fTE1l8oMA/edit?slide=id.g185b21217e3_0_0#slide=id.g185b21217e3_0_0">Resume Workshop</a></li>
+        </ul>
+
+    </section>
+
+    <section id="ICPC">
+        <h2>ICPC</h2>
+        <p>We attended the <a href="https://icpc.global/">ICPC</a> regional competition in Fall 2025 and did <strong>OUR BEST!!!!!!!!!!!!!!!!!!!!!!!!!!</strong></p>
+        <br>
+        <img src="https://na.icpc.global/wp-content/uploads/2024/06/ICPC_International_Collegiate_Programming_Contest_logo_Aug_2018.png" alt="ICPC logo" id="icpc-logo">
+
+    </section>
+
+     <section id="Food">
+        <h2>Extra Reason to join!!</h2>
+        <p>We got subway, el pollo loco, little caesars, wingstop, and more food options! <br>
+        Every weeek our super cool awesome radical tubular secretary <i>Ethan Bones</i> makes a treachorous journey to bring us food !!!!!!!! YAYYYY !!!!</p>
+        <br>
+
+    </section>
+
     <section id="contact">
         <h2>Contact</h2>
         <form>
             <input type="text" placeholder="Your name">
             <input type="email" placeholder="Your email">
             <button>Submit</button>
+            <br><br>
+
+            <div class="discord-div">
+                <h2 class="discord-header">You can join us on Discord!</h2>
+                <a href="https://discord.gg/vwwVgey"  target="_blank" class="discord-link"><img src="https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg" width="90px"></img></a>
+            </div>
+        
         </form>
     </section>
 

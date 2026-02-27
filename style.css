@@ -1,13 +1,39 @@
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Jersey 10", cursive;
+    padding: 10px;
+    font-size: 45px;
+    color: #12418c;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin 0; /* BUG: missing colon */
+    margin: 0; 
+    background-color: #e6f2fa;
+}
+
+.icpc-logo {
+    width: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+    /* css is chopped and evil!! */
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    background: #333;
+    padding: 5px;
+    background: #276938;
+    margin: 0;
+    border: #276938 solid 1px;
+
 }
 
 nav ul li {
@@ -21,5 +47,46 @@ nav ul li a {
 }
 
 section {
-    padding: 20px
+    padding: 20px;
+    background-color: #e6f2fa;
 }
+
+img {
+    display: flex;
+    margin: 20px auto;
+
+}
+
+
+h1:hover {
+  font-size: 50px;
+}
+
+nav ul li a:hover {
+  background-color: #d5f2d8;
+  color: #172e19;
+  padding: 40px;
+  font-size: 18px;
+  border-radius: 20%;
+}
+
+.discord-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px; 
+    margin-top: 0;
+    align-items: left;
+    align-content: left;
+}
+
+
+.discord.div {
+    display: flex;
+}
+
+.discord-header {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+}
+
